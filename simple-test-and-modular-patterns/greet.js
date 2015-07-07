@@ -16,3 +16,9 @@
 
 // For a second bonus point, write a test that makes sure that the arguments
 // are being processed.
+
+exports = module.exports = {};
+
+exports.greet = function(name) {
+  return 'hello ' + name;
+}
