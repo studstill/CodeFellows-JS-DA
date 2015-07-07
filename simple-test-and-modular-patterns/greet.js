@@ -21,4 +21,10 @@ exports = module.exports = {};
 
 exports.greet = function(name) {
   return 'hello ' + name;
-}
+};
+
+exports.argvGreet = function(name) {
+  return 'hello ' + name;
+};
+
+console.log(exports.argvGreet(process.argv[2]));
