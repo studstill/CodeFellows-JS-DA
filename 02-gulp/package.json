@@ -1,0 +1,28 @@
+{
+  "name": "simple-test-and-modular-patterns",
+  "version": "1.0.0",
+  "description": "Shows examples of modular code written with TDD (Test Driven Delopment).",
+  "main": "greet.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.2",
+    "gulp-util": "^3.0.6",
+    "jshint-stylish": "^2.0.1",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/studstill/CodeFellows-JS-DA/tree/master/simple-test-and-modular-patterns"
+  },
+  "author": "Jason Studstill",
+  "license": "ISC"
+}
