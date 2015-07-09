@@ -8,11 +8,3 @@ function push(element) {
   return this.length;
 }
 
-// Array.prototype.push = function(element) {
-//   this[array.length] = element;
-//   return array.length;
-// };
-
-function List() {};
-
-List.prototype.run = function(speed) { console.log()};
