@@ -13,7 +13,7 @@ function duplicates(array) {
   return false;
 }
 
-exports.duplicates = duplicates;
+module.exports = duplicates;
 
 // duplicates([1,2,2,3]);
 // >true
