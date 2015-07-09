@@ -1,5 +1,3 @@
-README
-
 Assignments for July 8th, 2015
 
 This repo contains the solutions to the 4 white board questions that
