@@ -9,7 +9,6 @@ function duplicates(array) {
     else
       hash[array[i]] = 1;
   }
-  console.log(hash);
   return false;
 }
 
