@@ -13,6 +13,8 @@ function duplicates(array) {
   return false;
 }
 
+exports.duplicates = duplicates;
+
 // duplicates([1,2,2,3]);
 // >true
 
