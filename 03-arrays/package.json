@@ -1,0 +1,27 @@
+{
+  "name": "03-arrays",
+  "version": "0.1.0",
+  "description": "Solutions to exercises from class",
+  "main": "01-duplicates.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "chai": "^3.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/studstill/CodeFellows-JS-DA/tree/03-arrays/03-arrays"
+  },
+  "keywords": [
+    "array",
+    "codefellows"
+  ],
+  "author": "Jason Studstill",
+  "license": "ISC"
+}
