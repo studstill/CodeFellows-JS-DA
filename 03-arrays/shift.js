@@ -5,7 +5,6 @@ module.exports = shift;
 
 function shift() {
   var firstElement = this[0];
-  var myArr = [];
   for (var i = 0; i < this.length - 1; i++) {
     this[i] = this[i + 1];
   }
