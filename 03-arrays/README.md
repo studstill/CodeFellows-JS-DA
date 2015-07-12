@@ -1,7 +1,7 @@
 Data Structures and Algorithms I
 
 This repo contains my re-implementation the following methods for
-Array.prototype, without using any library functions. I have Also addded
+Array.prototype, without using any library functions. I have also addded
 some Mocha tests to verify correctness:
 
   1. Push
