@@ -4,20 +4,31 @@ This repo contains my re-implementation the following methods for
 Array.prototype, without using any library functions. I have also addded
 some Mocha tests to verify correctness:
 
-  1. Push
+  - Push
 
-  2. Pop
+  - Pop
 
-  3. Shift
+  - Shift
 
-  4. Unshift
+  - Unshift
 
 In addition, I've provided my solutions to the following exercises:
 
-  5. Implement a function called "unique" that takes an array and
+  - Implement a function called "unique" that takes an array and
      returns a copy of the array with all the duplicates removed.
 
-  6. Implement a function called "frequency2" that, when given an array
+  - Implement a function called "frequency2" that, when given an array
      of english words, returns what the most common letter
      (anywhere in a word) is.
+
+
+*** TO RUN TESTS ***
+
+ - Clone this repo to a local directory
+
+ - Open your terminal and navigate to the cloned repo
+
+ - Type 'npm install' and press enter
+
+ - Type 'mocha' and press enter to see the test results.
 
