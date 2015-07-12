@@ -1,15 +1,23 @@
-Assignments for July 8th, 2015
+Data Structures and Algorithms I
 
-This repo contains the solutions to the 4 white board questions that
-we were given in class.
+This repo contains my re-implementation the following methods for
+Array.prototype, without using any library functions. I have Also addded
+some Mocha tests to verify correctness:
 
-01. Check array for duplicates; Return true if duplicates, false if not.
+  1. Push
 
-02. Given an array of strings, return the character that appears most
-    often at the beginning of each string
+  2. Pop
 
-03. Given an array of strings, return the character that appears the most.
+  3. Shift
 
-04. Rewrite Array.prototype.shift, i.e. return and detach the first element
-    in an array and shift each element one index closer to zero, deleting
-    the final index of the previous array.
+  4. Unshift
+
+In addition, I've provided my solutions to the following exercises:
+
+  5. Implement a function called "unique" that takes an array and
+     returns a copy of the array with all the duplicates removed.
+
+  6. Implement a function called "frequency2" that, when given an array
+     of english words, returns what the most common letter
+     (anywhere in a word) is.
+
