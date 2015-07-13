@@ -10,7 +10,6 @@ var expect = require('chai').expect;
 
 describe('helpers.js', function() {
   describe('#invert', function() {
-    // Flip
     it('Should take an array of image data from a BMP with palette data ' +
        'and return an array, where each value has been converted to ' +
        'its the inverse value (max value is 255)', function() {
