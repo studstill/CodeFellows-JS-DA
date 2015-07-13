@@ -10,8 +10,10 @@ This repo contains my solution for the bitmap conversion assignment.
 
   > node filename option
 
-  - transformWP.js OPTIONS: invert, grayscale
-  - transformNP.js OPTIONS: invert, grayscale, flip
+  - transformWP.js OPTIONS:
+  -- invert, grayscale
+  - transformNP.js OPTIONS:
+  -- invert, grayscale, flip
 
 - To test
 
