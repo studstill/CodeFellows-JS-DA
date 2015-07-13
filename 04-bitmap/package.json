@@ -4,7 +4,7 @@
   "description": "Transform bitmap images",
   "main": "transformWP.js",
   "scripts": {
-    "test": "mocha"
+    "test": "gulp"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,13 @@
     "transform"
   ],
   "author": "Jason Studstill",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5"
+  }
 }
