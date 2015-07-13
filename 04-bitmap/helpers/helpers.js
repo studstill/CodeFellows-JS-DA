@@ -12,11 +12,13 @@ function grayscaleColors(imageDataArray, data) {
   // http://www.rapidtables.com/convert/image/rgb-to-grayscale.htm
 
   // Check for alpha
+  var increment;
+  var alpha;
   if (data.readUInt32LE(28) === 24) {
-    var increment = 3;
+    increment = 3;
   } else if (data.readUInt32LE(28) === 8) {
-    var increment = 4;
-    var alpha = true;
+    increment = 4;
+    alpha = true;
   }
 
   var newArray = [];
@@ -51,15 +53,6 @@ function flipImageNP(imageDataArray, data) {
   return newArray;
 }
 
-// Change brightness
-function changeBrightness(imageDataArray, data) {
-  var brightness = 0.5;
-  for (var i = 0; i < imageDataArray.length; i++) {
-    imageDataArray[i];
-  }
-}
-
-exports.brightness = changeBrightness;
 exports.flipImageNP = flipImageNP;
 exports.grayscaleColors = grayscaleColors;
 exports.invertImageColors = invertImageColors;
