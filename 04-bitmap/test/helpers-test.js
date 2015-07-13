@@ -1,3 +1,10 @@
+
+/**********************************************************************
+/   In order to fulfill the base requirements for this assignment
+/   (and for the sake of time), this test file only tests one of
+/   my transformation functions, invert().
+/*********************************************************************/
+
 var invert = require('../helpers/helpers.js').invertImageColors;
 var expect = require('chai').expect;
 
