@@ -11,7 +11,7 @@ gulp.task('test', function() {
 });
 
 gulp.task('lint', function() {
-  return gulp.src(['*.js', 'test/*.js'])
-             .pipe(jshint())
-             .pipe(jshint.reporter('default'));
+  return gulp.src(['*.js', 'test/*.js', 'helpers/*.js'])
+             .pipe(jshint('.jshintrc'))
+             .pipe(jshint.reporter('jshint-stylish'));
 });
