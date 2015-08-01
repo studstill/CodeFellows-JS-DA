@@ -1,4 +1,4 @@
-Data Structures and Algorithms I
+#Data Structures and Algorithms I
 
 This repo contains my re-implementation the following methods for
 Array.prototype, without using any library functions. I have also addded
@@ -23,7 +23,7 @@ In addition, I've provided my solutions to the following exercises:
 
 
 
-*** TO RUN TESTS ***
+## To Run Tests
 
  - Clone this repo to a local directory
 
